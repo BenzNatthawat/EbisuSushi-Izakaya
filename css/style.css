@@ -428,7 +428,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-right: 14px;
 }
 
-.main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child a {
+/* .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child a {
   color: #fff;
   text-align: center;
   z-index: 2;
@@ -450,7 +450,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: -1;
   transition: all 400ms linear 0s;
   border: 1px solid #b10400;
-}
+} */
 
 .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:hover a, .main_menu_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.active a {
   color: #b10400;
