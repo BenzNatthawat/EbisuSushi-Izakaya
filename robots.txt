@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /sitemap.xml
+Disallow: /.htaccess
+Disallow: /error_log
+Disallow: /assets
+Disallow: /template
+Disallow: /js
+Disallow: /css
+Sitemap: https://www.ebisuSushi-izakaya.com/sitemap.xml
