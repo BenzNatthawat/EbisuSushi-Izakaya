@@ -29,7 +29,7 @@
                 <div class="banner_content">
                     <h4>Our Gallery</h4>
                     <a href="#">Home</a>
-                    <a class="active" href="gallery.html">Gallery</a>
+                    <a class="active" href="gallery.php">Gallery</a>
                 </div>
             </div>
         </section>

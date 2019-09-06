@@ -29,7 +29,7 @@
                 <div class="banner_content">
                     <h4>Contact Us</h4>
                     <a href="#">Home</a>
-                    <a class="active" href="blog-gallery.html">Contat Us</a>
+                    <a class="active" href="gallery.php">Contat Us</a>
                 </div>
             </div>
         </section>
