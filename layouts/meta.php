@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="img/express-favicon.png" type="image/x-icon" />
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>RedCaynne Re</title>
+<title>EbisuSushi Izakaya @hatyai - ร้านซูชิ</title>
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">

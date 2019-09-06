@@ -75,13 +75,10 @@
       </div>
       <div class="pull-right">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="menu.php">Menu</a></li>
+          <li><a href="gallery.php">Gallery</a></li>
+          <li><a href="contact.php">Contact US</a></li>
         </ul>
       </div>
     </div>
