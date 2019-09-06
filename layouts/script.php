@@ -24,3 +24,8 @@
 
 <script src="js/video_player.js"></script>
 <script src="js/theme.js"></script>
+<script>
+  let pathname = $(location)[0].pathname.split("/")
+  let menu_name = pathname[pathname.length - 1].split(".")[0] || 'index'
+  $(`#menu_${menu_name}`).addClass('active')
+</script>

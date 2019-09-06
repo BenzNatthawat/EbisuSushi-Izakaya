@@ -112,8 +112,8 @@
         
         <!--================Map Area =================-->
         <div id="mapBox" class="mapBox row m0" 
-        data-lat="40.5888008" 
-        data-lon="-73.6867803" 
+        data-lat="7.0311052" 
+        data-lon="100.4660972" 
         data-zoom="10"></div>
         <!--================End Map Area =================-->
 
