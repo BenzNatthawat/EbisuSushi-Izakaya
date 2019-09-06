@@ -60,7 +60,7 @@
   <?php include dirname(__FILE__) . '/layouts/script.php' ?>
   <!--================End Recent Blog Area =================-->
   <script>
-    $.getJSON(`/EbisuSushi-Izakaya/json/menu.json`, function(data) {
+    $.getJSON(`/json/menu.json`, function(data) {
       data.Sheet1.forEach(({img_name, name, price, type}) =>
         $('#imgs_list').append(`
           <div class="col-md-4 col-sm-6 ${type}">
