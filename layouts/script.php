@@ -28,4 +28,17 @@
   let pathname = $(location)[0].pathname.split("/")
   let menu_name = pathname[pathname.length - 1].split(".")[0] || 'index'
   $(`#menu_${menu_name}`).addClass('active')
+
+  $.getJSON(`json/menu.json`, function(data) {
+    let random = Math.floor(Math.random() * data.Sheet1.length - 10)
+    let img = data.Sheet1.splice(random, 9)
+    img.forEach(({
+        img_name,
+        name,
+        price,
+        type
+      }) =>
+      $('ul#list_footer').append(`<li><img src="img/menu/${img_name}" alt="${name}"></li>`)
+    )
+  });
 </script>

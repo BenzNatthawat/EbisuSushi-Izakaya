@@ -12,8 +12,8 @@
               อร่อยครบ บริการทุกระดับ เสิร์ฟทุกความประทับใจ
             </p>
             <ul>
-              <li><a href="https://www.facebook.com/EbisuHatyai"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.instagram.com/ebisuhatyai"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/EbisuHatyai"><i class="fa fa-facebook"></i></li>
+              <li><a href="https://www.instagram.com/ebisuhatyai"><i class="fa fa-instagram"></i></li>
             </ul>
           </aside>
         </div>
@@ -24,8 +24,8 @@
             </div>
             <p>ติดต่อ-สอบถาม โปรโมชั่นและสินค้า</p>
             <ul>
-              <li><a href="#"><i class="fa fa-phone"></i>093-690-0670</a></li>
-              <li><a href="#"><i class="fa fa-map-marker"></i>Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</a></li>
+              <li><i class="fa fa-phone"></i>093-690-0670</li>
+              <li><i class="fa fa-map-marker"></i>Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</li>
             </ul>
           </aside>
         </div>
@@ -49,14 +49,7 @@
             <div class="f_w_title">
               <h4>Gallery On Flickr</h4>
             </div>
-            <ul>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-1.jpg" alt=""><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-2.jpg" alt=""><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-3.jpg" alt=""><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-4.jpg" alt=""><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-5.jpg" alt=""><i class="fa fa-search"></i></a></li>
-              <li><a href="#"><img src="img/gallery/f-w-gallery/f-w-gallery-6.jpg" alt=""><i class="fa fa-search"></i></a></li>
-            </ul>
+            <ul id="list_footer"></ul>
           </aside>
         </div>
       </div>
@@ -75,10 +68,10 @@
       </div>
       <div class="pull-right">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.php">Home</a></li>
-          <li><a href="menu.php">Menu</a></li>
-          <li><a href="gallery.php">Gallery</a></li>
-          <li><a href="contact.php">Contact US</a></li>
+          <li><a href="index.php">Home</li>
+          <li><a href="menu.php">Menu</li>
+          <li><a href="gallery.php">Gallery</li>
+          <li><a href="contact.php">Contact US</li>
         </ul>
       </div>
     </div>
