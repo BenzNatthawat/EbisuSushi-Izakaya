@@ -5,9 +5,12 @@
         <div class="col-md-3">
           <aside class="f_widget about_widget">
             <div class="f_w_title">
-              <h4>ABOUT RedCayenne</h4>
+              <h4>เกี่ยวกับเรา</h4>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ut.</p>
+            <p>
+              Ebisu Sushi & Izakaya เรื่องชูชิ ข้าวปั้น ปลาดิบ อาหารญี่ปุ่นต้องเอะบิสึซูชิ
+              อร่อยครบ บริการทุกระดับ เสิร์ฟทุกความประทับใจ
+            </p>
             <ul>
               <li><a href="https://www.facebook.com/EbisuHatyai"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://www.instagram.com/ebisuhatyai"><i class="fa fa-instagram"></i></a></li>
@@ -17,27 +20,26 @@
         <div class="col-md-3">
           <aside class="f_widget contact_widget">
             <div class="f_w_title">
-              <h4>CONTACT US</h4>
+              <h4>ติดต่อเรา</h4>
             </div>
-            <p>Have questions, comments or just want to say hello:</p>
+            <p>ติดต่อ-สอบถาม โปรโมชั่นและสินค้า</p>
             <ul>
-              <li><a href="#"><i class="fa fa-envelope"></i>backpiper.com@gmail.com</a></li>
-              <li><a href="#"><i class="fa fa-phone"></i>+88 01911 854 378</a></li>
-              <li><a href="#"><i class="fa fa-map-marker"></i>5001 E. Colorado Blvd. Suite 820,<br /> Pasadena, CA 91106</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>093-690-0670</a></li>
+              <li><a href="#"><i class="fa fa-map-marker"></i>Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</a></li>
             </ul>
           </aside>
         </div>
         <div class="col-md-3">
           <aside class="f_widget twitter_widget">
             <div class="f_w_title">
-              <h4>Twitter Feed</h4>
+              <h4>เวลาเปิดให้บริการ</h4>
             </div>
             <ul>
               <li>
-                <a href="#">@_sumonrahman:</a> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+                เปิดให้บริการทุกวันจันทร์-อาทิตย์ ตั้งแต่เวลา 11:00น. - 22:00น.
               </li>
               <li>
-                <a href="#">@_sumonrahman:</a> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+                เปิดให้บริการทุกวันหยุดนักขัตฤกษ์ ตั้งแต่เวลา 11:00น. - 22:00น.
               </li>
             </ul>
           </aside>
@@ -65,11 +67,9 @@
       <div class="pull-left">
         <h5>
           <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;<script>
               document.write(new Date().getFullYear());
-            </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </script> Ebisu Sushi & Izakaya
           </p>
         </h5>
       </div>
