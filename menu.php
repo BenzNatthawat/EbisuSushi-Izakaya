@@ -27,7 +27,7 @@
   <section class="banner_area">
     <div class="container">
       <div class="banner_content">
-        <h4>ALL MENU</h4>
+        <h4>เมนูทั้งหมด</h4>
       </div>
     </div>
   </section>
@@ -39,7 +39,7 @@
       <div class="popular_filter">
         <ul>
           <li class="active" data-filter="*"><a href="">All</a></li>
-          <li data-filter=".sashimi"><a href="">Sasimi</a></li>
+          <li data-filter=".sashimi"><a href="">Sashimi</a></li>
           <li data-filter=".sushi"><a href="">Sushi</a></li>
           <li data-filter=".rice"><a href="">Rice</a></li>
           <li data-filter=".noodle"><a href="">Noodle</a></li>
@@ -60,7 +60,7 @@
   <?php include dirname(__FILE__) . '/layouts/script.php' ?>
   <!--================End Recent Blog Area =================-->
   <script>
-    $.getJSON(`/json/menu.json`, function(data) {
+    $.getJSON(`json/menu.json`, function(data) {
       data.Sheet1.forEach(({img_name, name, price, type}) =>
         $('#imgs_list').append(`
           <div class="col-md-4 col-sm-6 ${type}">

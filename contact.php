@@ -27,9 +27,9 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_content">
-                    <h4>Contact Us</h4>
-                    <a href="#">Home</a>
-                    <a class="active" href="gallery.php">Contat Us</a>
+                    <h4>ติดต่อเอะบิสึซูชิ</h4>
+                    <a href="#">หน้าแรก</a>
+                    <a class="active" href="gallery.php">ติดต่อเอะบิสึซูชิ</a>
                 </div>
             </div>
         </section>
@@ -49,8 +49,8 @@
                                     <i class="fa fa-map-marker"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Addtress</h4>
-                                    <h5>Freedom Way, Jersey Ctity, NJ 07305, USA</h5>
+                                    <h4>ที่อยู่</h4>
+                                    <h5>Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</h5>
                                 </div>
                             </div>
                             <div class="media">
@@ -58,8 +58,8 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Phone</h4>
-                                    <h5>+88 01911 854 378</h5>
+                                    <h4>โทรศัพท์</h4>
+                                    <h5>093-690-0670</h5>
                                 </div>
                             </div>
                             <div class="media">
@@ -67,8 +67,8 @@
                                     <i class="fa fa-envelope-o"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Email</h4>
-                                    <h5>backpiper.com@gmail.com</h5>
+                                    <h4>อีเมล</h4>
+                                    <h5>praelada.panich@gmail.com</h5>
                                 </div>
                             </div>
                         </div>

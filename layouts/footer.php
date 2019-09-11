@@ -12,8 +12,8 @@
               อร่อยครบ บริการทุกระดับ เสิร์ฟทุกความประทับใจ
             </p>
             <ul>
-              <li><a href="https://www.facebook.com/EbisuHatyai"><i class="fa fa-facebook"></i></li>
-              <li><a href="https://www.instagram.com/ebisuhatyai"><i class="fa fa-instagram"></i></li>
+              <li><a href="https://www.facebook.com/EbisuHatyai"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/ebisuhatyai"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </aside>
         </div>
@@ -24,8 +24,8 @@
             </div>
             <p>ติดต่อ-สอบถาม โปรโมชั่นและสินค้า</p>
             <ul>
-              <li><i class="fa fa-phone"></i>093-690-0670</li>
-              <li><i class="fa fa-map-marker"></i>Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</li>
+              <li><i class="fa fa-phone"></i> 093-690-0670</li>
+              <li><i class="fa fa-map-marker"></i> Ebisu Sushi & Izakaya เอะบิสึซูชิ, <br />213/92 ซอย ลพบุรีราเมศวร์, <br />คลองแห หาดใหญ่ 90110</li>
             </ul>
           </aside>
         </div>
@@ -47,7 +47,7 @@
         <div class="col-md-3">
           <aside class="f_widget gallery_widget">
             <div class="f_w_title">
-              <h4>Gallery On Flickr</h4>
+              <h4>รูปภาพเมนูแนะนำ</h4>
             </div>
             <ul id="list_footer"></ul>
           </aside>
@@ -68,10 +68,10 @@
       </div>
       <div class="pull-right">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.php">Home</li>
-          <li><a href="menu.php">Menu</li>
-          <li><a href="gallery.php">Gallery</li>
-          <li><a href="contact.php">Contact US</li>
+          <li><a href="index.php">หน้าแรก</li>
+          <li><a href="menu.php">เมนูอาหาร</li>
+          <li><a href="gallery.php">อัลบั้มรูปภาพ</li>
+          <li><a href="contact.php">ติดต่อเรา</li>
         </ul>
       </div>
     </div>

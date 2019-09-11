@@ -27,9 +27,9 @@
         <section class="banner_area">
             <div class="container">
                 <div class="banner_content">
-                    <h4>Our Gallery</h4>
-                    <a href="#">Home</a>
-                    <a class="active" href="gallery.php">Gallery</a>
+                    <h4>อัลบั้มรูปภาพ</h4>
+                    <a href="#">หน้าแรก</a>
+                    <a class="active" href="gallery.php">อัลบั้มรูปภาพ</a>
                 </div>
             </div>
         </section>
