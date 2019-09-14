@@ -11,16 +11,16 @@
 <body>
   <div id="primary">
     <div id="content" role="main">
-        <div id="wheelcanvasOuter" style="position: relative; height: 500px; width: 500px; margin: 0px auto;">
-          <canvas id="wheelcanvas" style="position: absolute; left: 0; top: 0; z-index: 0;" width="500" height="500">
-          </canvas>
-          <canvas id="wheelcanvastop" style="position: absolute; left: 0; top: 0; z-index: 1;" width="500" height="500"
-            onclick="spin();" onmousedown="wheelMouseDown(event);" onmousemove="wheelMouseMove(event);"
-            onmouseup="wheelMouseUp(event); spin();" onmouseout="wheelMouseUp(event);">
-          </canvas>
-        </div>
+      <div id="wheelcanvasOuter" style="position: relative; height: 500px; width: 500px; margin: 0px auto;">
+        <canvas id="wheelcanvas" style="position: absolute; left: 0; top: 0; z-index: 0;" width="500" height="500">
+        </canvas>
+        <canvas id="wheelcanvastop" style="position: absolute; left: 0; top: 0; z-index: 1;" width="500" height="500"
+          onclick="spin();" onmousedown="wheelMouseDown(event);" onmousemove="wheelMouseMove(event);"
+          onmouseup="wheelMouseUp(event); spin();" onmouseout="wheelMouseUp(event);">
+        </canvas>
+      </div>
 
-        <!-- <audio id="wheelAudio" preload="auto">
+      <!-- <audio id="wheelAudio" preload="auto">
           <source src="/sounds/WheelDecideFX1_Soft_Short.ogg" type="audio/ogg">
           <source src="/sounds/WheelDecideFX1_Soft_Short.mp3" type="audio/mpeg">
         </audio>
@@ -44,7 +44,7 @@
   </div>
 </body>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js?ver=1.10.2"></script>
+<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>
 <script>
 
   var isMouseDown = false;
@@ -362,7 +362,20 @@
   });
 
   var colors = ["#FFFF00", "#FFFFFF", "#3333FF", "#FFFFFF", "#FF2222", "#FFFFFF"];
-  var restaurants = ["American", "Pizza", "Italian", "Mexican", "Spanish", "Caribbean", "Seafood", "Mediterranean", "French", "Indian", "Chinese", "Thai", "Vietnamese", "Korean", "Japanese", "Sandwiches", "Burgers", "Breakfast"];
+  var restaurants = [
+    "ฟรีหนวดปลาหมึก",
+    "รับส่วนลด 100",
+    "ฟรีชาเขียวรีฟิว",
+    "ฟรีหัวปลาแซลมอนต้มซีอิ๊ว",
+    "ส่วนลด 50% เมนูใดก็ได้",
+    "ข้าวปั้นแซลมอน 2 คำ",
+    "ฟรีชาเขียวรีฟิว",
+    "ฟรีหนวดปลาหมึก",
+    "รับส่วนลด 100",
+    "รับส่วนลด 20%",
+    "ฟรีชาเขียวรีฟิว",
+    "รับส่วนลด 10%"
+    ];
   var intTextBox = 100;
   var choiceCount = 100;
   var numcolors = colors.length;
