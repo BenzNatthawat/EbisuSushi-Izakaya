@@ -60,13 +60,21 @@
   <?php include dirname(__FILE__) . '/layouts/script.php' ?>
   <!--================End Recent Blog Area =================-->
   <script>
+    var count = 0
     $.getJSON(`json/menu.json`, function(data) {
-      data.Sheet1.forEach(({img_name, name, price, type}) =>
+      data.Sheet1.forEach(({img_name, name, price, type}, index) => {
+        if(index%10 == 9)
+          count++
+        setDelay(img_name, name, price, type, count)
+      })
+    });
+    function setDelay(img_name, name, price, type, count) {
+      setTimeout(function(){
         $('#imgs_list').append(`
-          <div class="col-md-4 col-sm-6 ${type}">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ${type}">
             <div class="feature_item">
               <div class="feature_item_inner">
-                <img src="img/menu/${img_name}" alt="${name}">
+                <img class="height-menu" src="img/menu/${img_name}" alt="${name}">
               </div>
               <div class="title_text">
                 <div class="feature_left"><a href="#"><span>${name}</span></a></div>
@@ -75,9 +83,9 @@
               </div>
             </div>
           </div>
-      `)
-      )
-    });
+        `)
+      }, 2000 * count);
+    }
   </script>
 </body>
 

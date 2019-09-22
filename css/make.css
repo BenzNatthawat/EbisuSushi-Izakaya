@@ -5,3 +5,25 @@
 img {
   width: 100%;
 }
+
+.height-menu {
+  height: 300px;
+}
+
+@media (min-width: 768px) {
+  .height-menu {
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .height-menu {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .height-menu {
+    height: 200px;
+  }
+}
